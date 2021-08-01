@@ -1,0 +1,1034 @@
+* {
+   -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', 'Verdana' , 'Tahoma' ;
+    height: 3000px;
+}
+
+/* Start My Framework  */
+.container-x{position: relative;}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.text-align{
+    text-align: center;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.responsive-img{
+    width: 100%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.visibility-xs,
+.visibility-ms,
+.visibility-md,
+.visibility-lg{
+      display: none;
+}
+
+.Hidden{
+    display: block;
+}
+
+.list-style{
+    list-style: none;
+}
+
+.text-decoration{
+    text-decoration: none;
+}
+
+
+
+/* End My Framework  */
+
+/* Start Header  */
+.Header{
+    background-image: url('./image/hero-bg.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height:  870px;
+}
+
+.Header .overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    background-color: #171819;
+    opacity: .85;
+}
+
+.Header .Navbar{
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: #171819;
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
+    
+}
+.Header .Navbar ul{
+    padding: 0;
+    margin: 0;
+}
+
+.Header .Navbar li{
+    display: inline-block;
+    margin: 0;
+    padding: 15px;
+}
+
+
+
+.Header .Navbar a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFF;
+    padding: 6px;
+    text-transform: uppercase;
+    line-height: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .5 ease-in-out;
+
+}
+
+.Header .Navbar h3{
+    color:#FFF;
+    margin-left: 15%;
+    font-size: 25px;
+    transition: all .5 ease-in-out;
+
+}
+.Header .Navbar h3:hover{
+    color: #f13a11;
+}
+.Header .Navbar a:hover{
+    color: #f13a11;
+    
+
+}
+
+
+ .Navbar ul li .fb {
+    width: 100%;
+    height: 50px;
+   background: url('image/fb-logo2.png') no-repeat 50% center;
+   
+ }
+ .Navbar ul li .fb:hover{
+   background-color: #f13a11;
+
+}
+
+@media (max-width:768px){
+ 
+    .Header .Navbar h3{
+        margin-left: 3% !important;
+    }
+}
+
+@media (min-width:770px) and (max-width: 991px){
+ 
+    .Header .Navbar h3{
+        margin-left: 2% !important;
+    }
+    .Hidden{
+        display: none;
+    }
+
+}
+/* End Header  */
+
+/* Start Silde  */
+
+.Header .Silde .info{
+     padding-top: 22%;
+     color: #FFF;
+     font-size:  25px;
+
+
+}
+.Header .Silde .info h4{
+    color: #999;
+    margin-bottom: 3%;
+
+}
+.Header .Silde .info h1{
+    margin-bottom: 4%;
+}
+.Header .Silde .info a{
+    text-decoration: none;
+    color:#FFF;
+    font-size:  18px;
+    margin-right: 1%;
+    text-transform: uppercase;
+}
+
+.Header .Silde .info button{
+    font-size:  17px;
+    border: 1px solid #f13a11;
+    color:#f13a11;
+    background:none;
+    padding: 15px;
+    margin-left: 1%;
+    border-radius: 14px;
+}
+.Header .Silde .info a:hover{
+    color:#f13a11;
+
+}
+.Header .Silde .info button:hover{
+    background-color: #FFF;
+    border: 1px solid white;
+}
+
+
+@media (min-width: 450px) and (max-width: 767px){
+    
+    .Header .Silde {
+        padding-top: 40% !important;
+    }
+}
+
+@media (max-width: 768px){
+    .Header .Silde .info{
+        padding-top: 30% !important;
+
+    }
+    }
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .Header .Silde .info{
+        padding-top: 35% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .Header .Silde .info{
+        padding-top: 30% !important;
+    }
+    .Header .Silde .info{
+        transition: all 2s ease-in-out;
+        transition-delay: .5; 
+
+       }
+}
+@media (min-width: 1200px){
+    .Header .Silde .info{
+        transition: all 2s ease-in-out;
+        transition-delay: .5; 
+
+       }
+}
+/* End Silde  */
+
+/* Start Working  */
+.Working{
+    background-color: #171819;
+    height: 430px;
+     margin: 0;
+     padding: 0;
+}
+
+.Working .Work{
+    color: white;
+    line-height: 1;
+    width: 45%;
+ 
+
+
+
+}
+.Working .Work:first-of-type{
+    margin-left: 10%;
+    padding: 30px 25px 0 0;
+    font-size: 23px;
+}
+
+.Working .Work:not(:first-of-type){
+    padding: 60px 0 0 50px;
+    width: 40%;
+    line-height: .4;
+    color: #FFF;
+    font-size: 20px;
+
+}
+.Working .Work h3{font-size: 34px;}
+.Working .Work:first-of-type h3{font-size: 40px;}
+
+.Working .Work:not(:first-of-type) h3 {
+    padding-bottom: 10px;
+}
+
+.Working .Work:first-of-type span {
+    font-size: 30px;
+}
+
+.Working .Work:not(:first-of-type) span , p{
+    color: #999; 
+}
+.Working .Work button{
+    width: 90%;
+    padding: 15px;
+    background-color: #f13a11;
+    border: 1px solid #171819;
+    border-radius: 8px;
+    color: #FFF;
+}
+
+.Working .Work button:hover{background-color: #FFF; color: #f13a11;}
+
+@media (max-width: 768px){
+    .Working {
+      height: 26% !important;
+    }
+    .Working .Work{
+        width: 48%;
+        
+    }
+
+}
+
+@media (min-width: 450px) and (max-width: 767px){
+    
+    .Working{
+        height: 26%;
+        margin: 0 !important;
+    }
+    .Working .Work{
+        width: 100%; 
+        margin-left: 0 !important;
+        text-align: center;
+
+    }
+    .Working .Work:not(:first-of-type){
+        width: 100%;
+        text-align: center;
+    }
+    .Working .Work:first-of-type{
+        padding: 15px 0;
+        margin-right: 2%;
+    }
+    .Working .Work:not(:first-of-type){
+        padding: 28px 0;
+    }
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .Working{
+        height: 16% !important;
+      
+    }
+    .Working .Work{
+        margin-left: 1% !important;
+        width: 50%;
+        margin-bottom: 2%;
+    }
+    .Working .Work:first-of-type{
+         
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .Working .Work{
+        margin-left: 3% !important;
+        width: 50%;
+        transition: all 2s ease-in-out;
+         transition-delay: 2s; 
+    } 
+}
+@media (min-width: 1200px){
+     .Working .Work{ 
+          transition: all 2s ease-in-out;
+          transition-delay: 2s;
+     } 
+}
+/* End Working  */
+
+
+
+/* Start Gymso */
+.Gymso{
+    background-color: #f9f9f9;
+    height: 500px;
+    margin: 0;
+}
+.Gymso .Gym{
+    margin: 60px 0;
+
+
+}
+.Gymso .Gym:first-of-type {
+    font-size: 1.2rem;
+}
+.Gymso .Gym h1 {
+    font-size: 3.3rem;
+}
+.Gymso .Gym a{
+    color: #333; 
+    
+
+}
+.Gymso .Gym a:hover{color: #f13a11;}
+
+
+.Gymso .Gym-Scound{
+    background-color: #FFF;
+    padding: 0;
+    margin-left: 3%;
+    box-shadow: 6px 0 38px rgb(204, 201, 201);
+    width: calc('100% - 255px');
+
+}
+.Gymso .Gym-Last{
+    background-color: #FFF;
+    padding: 0;
+    margin-left: 3%;
+    box-shadow: 6px 0 38px rgb(204, 201, 201);
+    width: calc('100% - 255px');
+
+}
+
+.Gymso .Gym-Scound .as{
+    padding-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    line-height: .75;
+}
+
+.Gymso .Gym-Last .as{
+    padding-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    line-height: .75;
+}
+
+
+
+
+@media (max-width: 768px){
+    .Gymso{
+        height: 29%  !important;
+
+        }
+    .Gymso .Gym-first  h1{
+        font-size: 39px;
+        text-align: center;
+     }
+      
+    .Gymso .Scound{
+        width: 45% !important;
+        float: left !important;
+    }
+    .Gymso .Scound img{
+        width: 100% !important;
+        padding: 0 !important;
+
+        
+    }
+    .Gymso .Gym-first p{
+       text-align: center;
+       line-height: 1.5;
+       padding: 0 !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .Gymso{
+        height: 29%;
+        
+    }
+    .Gymso .Gym-first{
+    width: 100%;
+    margin: 0;
+     }
+ 
+    .Gymso .Scound{
+        width: 45% !important;
+        float: left !important;
+    }
+    .Gymso .Scound img{
+        width: 100% !important;
+        
+    }
+  
+}
+  
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .Gymso .Gym-first{
+        width: 50%;
+    }
+    .Gymso .Gym img{
+        width: 204px;
+    }
+   .Gymso .Gym{
+    transition: all 3s ease-in-out;
+    transition-delay: 3s; 
+   }
+}
+
+@media (min-width: 1200px){
+    .Gymso .Gym-first{
+        width: 50%;
+    }
+    .Gymso .Gym img{
+        width: 250px;
+    }
+    .Gymso .Gym{
+        transition: all 3s ease-in-out;
+        transition-delay: 3s; 
+       }
+}
+/* End  Gymso */
+
+
+/* Start OurTraining */
+
+.OurTraining{
+    margin: 0;
+    padding: 50px 0 ;
+    background-color: #fff;
+    height: 800px;
+
+}
+.OurTraining .our{
+      width: 31.33333%;
+      box-shadow: 6px 0 10px rgb(204 201 201);
+      margin-right:2%;
+}
+.OurTraining h6{
+    padding: 60px 0;
+    padding-bottom: 15px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #888
+ }
+
+.OurTraining h1{
+    margin: 0;
+    padding: 0;
+   padding-bottom: 60px;
+   font-size: 50px;
+
+}
+
+.OurTraining .our h2,
+.OurTraining .our span,
+.OurTraining .our p{
+    padding-left: 8% ;
+    font-size: 20px;
+    line-height: 1.3;
+    
+}
+
+.OurTraining .our h2{
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 0;
+    margin: 0;
+    margin-top: 1rem;
+}
+.OurTraining .our span{
+    font-size: 19px;
+}
+
+.OurTraining .our strong{
+   color: #666;
+}
+.OurTraining .our p{
+    margin: 30px 0;
+ }
+.OurTraining .our .price{
+    background-color: #f13a11;
+    position: relative;
+    bottom: 4.9rem;
+    right: 1rem;
+    padding: 20px;
+    border-radius: 50%;
+    font-size:1.4rem;
+    color: #fff;
+}
+
+
+@media  screen and (max-width: 768px){
+    .OurTraining{
+        height: 24%;
+    }
+    .OurTraining .our {
+        width: 100%;
+        margin-top: 4%;
+
+      }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .OurTraining{
+        height: 19%;
+    }
+    .OurTraining .our:first-of-type {
+      width: 100%;
+    }
+    .OurTraining .our:not(:first-of-type) {
+        width: 46%;
+        margin-top: 4%;
+        margin-left: 2%;
+      }
+}
+
+@media screen and (min-width: 992px) {
+    .OurTraining{ 
+        animation: animation 4s 1 ease-in-out;
+         animation-delay: 4s; 
+    }
+    .OurTraining .our{
+      transition: all 4s ease-in-out;
+      transition-delay: 4s; 
+    }
+}
+
+
+/*  End OurTraining*/
+
+/* Start Workout Timetable */
+
+.Workout{
+        background-color: #171819;
+        height: 720px;
+        padding: 100px 0;
+}
+
+.Workout .Time-table  {
+    padding: 30px 0;
+   
+}  
+
+.Workout  h6{
+    color:#666;
+    font-size: 25px;
+    margin: 0;
+   
+   
+}  
+.Workout  h1{
+    color:#FFF;
+    font-size: 50px;
+    margin: 0;
+    
+}  
+.Workout .Time-table  table  th{
+    background-color: #f13a11;
+    border: 1px solid #f13a11;
+    padding:  10px 60px;
+    border-radius: 2px;
+    color:#FFF;
+    
+    
+
+}
+
+.Workout .Time-table  table td:first-of-type{
+    background-color: #f13a11;
+    border: 1px solid #f13a11;
+    border-radius: 2px;
+    color:#FFF;
+    padding: 20px 0;
+    line-height: 2.9;  
+}  
+
+.Workout .Time-table  table td:not(:first-of-type)  { 
+       border: 1px solid #333;
+       border-left: none;
+       border-top: none;
+       padding: 10px  15px;
+       color: #FFF;
+       
+}
+.Workout .Time-table  table td:last-of-type {
+    border-right: none;
+}
+.Workout .Time-table  table td ~ .border {
+    border-right: 1px solid  #333;
+}
+
+.Workout .Time-table strong{
+     font-size: 19px;
+     color:#f9f9f9
+ }
+
+.Workout .Time-table span{
+   float: left;
+   color: #999
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+    .Workout{
+       margin-top: 4%;
+    }
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+    .Workout .Time-table{
+        width: 100%;
+        overflow-x: scroll;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .Workout{
+        width: 100% !important;
+        margin-top: 2% !important;
+    }
+    .Workout .Time-table {
+        position: relative;
+        right: 5%;
+        overflow-x: scroll;
+
+    }
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+    .Workout {
+        width: 100% !important;
+    }
+    .Workout .Time-table th {
+        padding: 20px !important;
+    }
+    .Workout .Time-table table td:first-of-type{
+        padding: 10px !important;
+    }
+    .Workout .Time-table table td:not(:first-of-type){
+        padding: 0px !important;
+
+    }
+    
+    .container{
+        width: 100% !important;
+    }
+
+}
+
+/* End  Workout Timetable */
+
+
+/* Start contact-us */
+.contact-us{
+    height: 650px;
+    padding: 60px 0;
+}
+
+.contact-us .contact{
+        width: 48%;
+        padding: 20px 0;    
+        margin-left: 3%;   
+}
+
+.contact-us .contact h3{
+    font-size: 40px;
+    margin: 2% 0;
+
+}
+
+
+
+.contact-us  .contact input{
+    padding: 10px 0;
+    padding-right: 30%;
+    margin-top: 3%;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+
+.contact-us  .contact textarea{
+    width: 410px;
+    height: 140px;
+    margin-top: 5%;
+    color: #777;
+    border-radius: 5px;
+
+}
+.contact-us  .contact #submit{
+    width: 423px;
+    padding: 15px 0;
+   background-color: black;
+   color: #FFF;
+   border: 1px solid #333;
+   border-radius: 5px;
+   margin-top: 4%;
+
+}
+.contact-us  .contact #submit:hover{
+    background-color: #f13a11;
+    border: 1px solid #f13a11;
+
+}
+
+.contact-us  .contact #username,
+.contact-us  .contact #email,
+.contact-us  .contact #submit,
+.contact-us  .contact textarea
+{
+    font-size: 20px;
+}
+
+.contact-us .Maps{
+    padding: 50px 0;
+    float: left;
+}
+
+
+.contact-us .Maps h3{
+    font-size: 40px;
+    margin:  0;
+    margin-bottom: 4%;
+}
+
+.contact-us .Maps span{
+    font-size: 18px;
+    color: #555;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #999;
+    float: right;
+    line-height: 3;
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+    .contact-us  {
+        padding: 0;
+        height: 40% !important;
+        width: 100%;
+    }
+    .contact-us  .contact{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .contact-us  .contact input,
+    .contact-us  .contact #submit,
+    .contact-us  .contact textarea{
+   
+        width: 100% !important;
+        
+    }
+
+     .contact-us  .contact h3{text-align: center;}
+     .contact-us  .Maps  img{
+         float: none;
+    }
+    .contact-us  .Maps span {
+         float: none ;
+   }
+
+    .contact-us  .Maps {
+        text-align: center;
+        width: 100%;
+    }
+    .mapouter{
+        text-align: center !important;
+         width: 100% !important;
+         margin-top: 40px;
+    }
+    .gmap_canvas{
+        text-align: center !important;
+        width: 100% !important;
+
+    }
+
+ 
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    
+    .contact-us  {
+        height: 800px !important;
+    }
+    .contact-us  .contact{
+       
+        margin: 0 !important;
+    }
+    .contact-us  .contact{
+          position: relative;
+          right: 2%;
+    }
+
+    .contact-us  .contact h3{font-size: 25px}
+
+    .contact-us  .contact input,
+    .contact-us  .contact #submit,
+    .contact-us  .contact textarea{
+        width: 340px;
+        
+    }
+
+    .contact-us  .Maps{
+        width: 48%;
+        margin-left: 4%;
+        padding-top: 30px;
+        
+    }
+    .contact-us  .Maps h3{
+        font-size: 25px !important;
+    }
+    .contact-us .Maps span{
+        font-size: 15px;
+        padding-bottom: 40px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+    .contact-us .contact input{
+        width: 410px;
+    }
+        .contact-us  .Maps{
+        padding-top: 35px;
+        
+    }
+
+}
+
+
+/* End  contact-us */
+
+/* Start  Footer */
+
+.Footer{
+    background-color: #f9f9f9;
+    height: 200px;
+    border-top: 1px solid #e3e2e2;
+}
+
+.Footer .copyright{
+    width: 40%;
+    padding: 50px 0;
+    color: #333;
+    font-size: 20px;
+    padding-left: 30px ;
+}
+.Footer .copyright a{  
+    color: #333;
+
+ }
+ 
+ .Footer .copyright:last-of-type {  
+        line-height: 1.2;
+        margin: 0;
+        padding: 48px ;
+        float: right;
+ }
+
+
+@media screen and (min-width: 450px) and (max-width: 767px){
+    .Footer {
+        height: 200px;
+    }
+
+    .Footer .copyright{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .Footer .copyright{
+        width: 50%;
+    }
+
+}
+/* End  Footer */
+
+
+@keyframes animation {
+      
+    0%{
+        transform: translateY(-112px) ;
+    }
+    
+
+
+    100%{
+        transform: translateY(10px) ;
+
+    }
+
+}
+
+
+
+@media screen and  (max-width: 768px){  /* Moblie*/
+      
+    .visibility-xs{
+        display: block;
+    }
+    .Hidden{
+        display: none;
+    }
+    }
+
+
+@media  screen and  (min-width: 768px) { /* Small*/
+        .container{
+            width: 750px;
+        }
+        .visibility-ms{
+            display: block;
+        }
+        
+    }
+
+    
+@media screen and  (min-width: 992px){   /* Medium*/
+        .container{
+            width: 970px;
+        }
+     
+
+    }
+
+@media screen and  (min-width: 1200px){  /* Large */
+        .container{
+            width: 1170px;
+        }
+    }
